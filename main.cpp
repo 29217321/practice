@@ -1,5 +1,5 @@
 #include<iostream>
-#include<string.h>
+#include<string>
 #include<vector>
 #include<list>
 #include<map>
@@ -9,8 +9,14 @@
 using namespace std;
 
 int main(void) {
+    string str;
+
+    cout << "give a string" << endl;
+    getline(cin, str); 
+    cout << str;
+
     int num;
-    cout << "please give size: " << endl;
+    cout << endl << "please give size: " << endl;
     cin >> num;
 
     cout << "please give number: " << endl;
